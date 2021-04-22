@@ -4,7 +4,8 @@ title : Graphviz DOT to SVG
 author : qkzk
 date : 2021/04/22
 
-read a markdown make it a SVG
+read a markdown containing graph code blocks, convert them to SVG add
+create a copy of the file with links to svg instead of files.
 '''
 from subprocess import call
 import argparse
